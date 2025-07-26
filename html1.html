@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box Model Experiment</title>
+  <style>
+    * {
+      box-sizing: border-box; /* Ensures padding and border are included in width/height */
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .box {
+      width: 200px;
+      height: 100px;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      line-height: 100px;
+    }
+
+    .box1 {
+      background-color: #ff6b6b;
+      padding: 20px;
+      border: 5px solid #c0392b;
+      margin: 10px;
+    }
+
+    .box2 {
+      background-color: #6bc5ff;
+      padding: 10px;
+      border: 10px dashed #2980b9;
+      margin: 20px;
+    }
+
+    .box3 {
+      background-color: #6bff95;
+      padding: 30px;
+      border: 2px dotted #27ae60;
+      margin: 5px;
+    }
+
+    .note {
+      margin-top: 20px;
+      font-style: italic;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>CSS Box Model Experiment</h2>
+
+  <div class="box box1">Box 1</div>
+  <div class="box box2">Box 2</div>
+  <div class="box box3">Box 3</div>
+
+  <div class="note">
+    Notice how each box's spacing (inside = padding, outside = margin) and border affect the layout.
+    The <code>box-sizing: border-box;</code> ensures the total width/height includes padding and border.
+  </div>
+
+</body>
+</html>
