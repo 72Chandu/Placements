@@ -12,5 +12,29 @@ trapped.
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    vector<int>
+    vector<int>height={0,1,0,2,1,0,1,3,2,1,2,1};
+    int n=height.size();
+    int lmax=height[0];
+    int rmax=height[n-1];
+    int l=1;
+    int r=n-2;
+    int water=0;
+    while(l<=r){
+        if(height[l]>=lmax){
+            lmax=height[l];
+            l++;
+        }
+        else if(height[r]>=rmax){
+            rmax=height[r];
+            r--;
+        }else if(lmax<=rmax && height[l]<lmax){
+            water+=lmax-height[l];
+            l++;
+        }else{
+            water+=rmax-height[r];
+            r--;
+        }
+    }
+    cout<<water<<endl;
+    return 0;
 }

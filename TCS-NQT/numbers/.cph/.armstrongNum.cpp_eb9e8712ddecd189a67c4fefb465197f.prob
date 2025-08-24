@@ -1,0 +1,1 @@
+{"name":"Local: armstrongNum","url":"d:\\PLACEMENT\\TCS-NQT\\numbers\\armstrongNum.cpp","tests":[{"id":1754752705494,"input":"153","output":"true"},{"id":1754753941257,"input":"12","output":"false"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\PLACEMENT\\TCS-NQT\\numbers\\armstrongNum.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: gcd","url":"d:\\PLACEMENT\\TCS-NQT\\numbers\\gcd.cpp","tests":[{"id":1754751772458,"input":"4\n6","output":"2"},{"id":1754751795819,"input":"9\n8","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\PLACEMENT\\TCS-NQT\\numbers\\gcd.cpp","group":"local","local":true}

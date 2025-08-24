@@ -1,0 +1,1 @@
+{"name":"Local: TwoSum","url":"d:\\PLACEMENT\\TCS-NQT\\ARRAY\\medium\\TwoSum.cpp","tests":[{"id":1755582493102,"input":"5 14\n2 6 5 8 11 ","output":"1 3"},{"id":1755582808381,"input":"5 15\n2 6 5 8 11","output":"-1 -1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\PLACEMENT\\TCS-NQT\\ARRAY\\medium\\TwoSum.cpp","group":"local","local":true}

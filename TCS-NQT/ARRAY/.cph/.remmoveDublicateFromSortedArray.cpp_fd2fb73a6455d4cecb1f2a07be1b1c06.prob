@@ -1,0 +1,1 @@
+{"name":"Local: remmoveDublicateFromSortedArray","url":"d:\\PLACEMENT\\TCS-NQT\\ARRAY\\remmoveDublicateFromSortedArray.cpp","tests":[{"id":1755244082044,"input":"6\n1 1 2 2 2 3 3","output":"1 2 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\PLACEMENT\\TCS-NQT\\ARRAY\\remmoveDublicateFromSortedArray.cpp","group":"local","local":true}
