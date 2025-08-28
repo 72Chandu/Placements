@@ -120,21 +120,33 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    int profit=0;
-    int currProfit=0;
-    for(int i=0;i<n;i++){
-        currProfit += arr[i];
-        if(currProfit < 0) {
-            currProfit = 0;
-        }
-        profit = max(profit, currProfit); 
-    }
-    cout<<profit<<endl;
+    // int profit=0;
+    // int currProfit=0;
+    // for(int i=0;i<n;i++){
+    //     currProfit += arr[i];
+    //     if(currProfit < 0) {
+    //         currProfit = 0;
+    //     }
+    //     profit = max(profit, currProfit); 
+    // }
+    // cout<<profit<<endl;
     /*
     9
     -2 1 -3 4 -1 2 1 -5 4
     o/p=6
     */
+
+    // a=[17,18,5,4,6,1]  o/p=[18,6,6,6,1,-1]
+
+    vector<int>ans;
+    int maxRight=-1;
+    for(int i=n;i>=0;i--){
+        ans.push_back(maxRight);
+        maxRight=max(maxRight,arr[i]);
+    }
+    for(int i=0;i<ans.size();i++){
+        cout<<ans[i];
+    }
 
     return 0;
 }
